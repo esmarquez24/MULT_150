@@ -9,14 +9,14 @@ public class Evens : MonoBehaviour
 
     void Start()
     {
-        int sum = 0;
+        int count = 100;
+        
+        
 
-        while (count <= 100)
+        for (int i = 22; i <= count; i = i + 2) 
         {
-            sum += count;
-            count++;
+            Debug.Log(i);
         }
-        Debug.Log(sum);
     }
 
 
