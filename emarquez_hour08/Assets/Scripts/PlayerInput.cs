@@ -26,5 +26,12 @@ public class PlayerInput : MonoBehaviour
             print("The 'M' key is pressed down");
         if (Input.GetKeyDown(KeyCode.O))
             print("The 'O' key is pressed down");
+
+        float mxVal = Input.GetAxis("Mouse X");
+        float myVal = Input.GetAxis("Mouse Y");
+        if(mxVal != 0)
+            print("Mouse X movement selected: " + mxVal);
+        if(myVal != 0)
+            print("Mouse Y movement selected: " + myVal);
     }
 }
