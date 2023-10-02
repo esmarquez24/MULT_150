@@ -11,11 +11,23 @@ public class MyBirthday : MonoBehaviour
 
         for (int i = 1; i <= count; i++)
         {
-            Debug.Log(i);
-
-            if (i == 6)
+            if (i < 6 || i > 6)
             {
-                print("It's my birthday!");
+                Debug.Log(i);
+            } 
+            else
+            {
+                for (int n =1; n <= 30; n++)
+                {
+                    if (n == 24)
+                    {
+                        print("It's my birthday!");
+                    }
+                    else
+                    {
+                        Debug.Log(n);
+                    }
+                }
             }
         }
 
