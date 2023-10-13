@@ -15,4 +15,17 @@ public class TriggerScript : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print(other.gameObject.name + " has entered the wall");
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        print(other.gameObject.name + " is still in the wall");
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        print(other.gameObject.name + " has left the wall");
+    }
 }
