@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerScript : MonoBehaviour
+public class LTriggerScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,17 +15,16 @@ public class TriggerScript : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        print(other.gameObject.name + " has entered the wall");
+        print(other.gameObject.name + " has entered the left wall");
     }
     private void OnTriggerStay(Collider other)
     {
-        print(other.gameObject.name + " is still in the wall");
+        print(other.gameObject.name + " is still in the left wall");
     }
     private void OnTriggerExit(Collider other)
     {
-        print(other.gameObject.name + " has left the wall");
+        print(other.gameObject.name + " has exit the left wall");
     }
 }
