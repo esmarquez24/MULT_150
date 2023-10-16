@@ -4,7 +4,10 @@ using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
 public class CubeScript : MonoBehaviour
+
 {
+    public static int Score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +20,11 @@ public class CubeScript : MonoBehaviour
         
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.transform.name == "Sphere")
+        {
+            int v = Score++;
+        }
+    }
 }
