@@ -6,7 +6,7 @@ using UnityEngine;
 public class CubeScript : MonoBehaviour
 
 {
-    public static int Score = 0;
+    public int Score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,8 @@ public class CubeScript : MonoBehaviour
     {
         if(collision.transform.name == "Sphere")
         {
-            int v = Score++;
+            Score++;
+            Debug.Log(Score);
         }
     }
 }
