@@ -78,7 +78,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void PlayLandingSound()
         {
-            m_AudioSource.clip = m_LandSound;
+            //m_AudioSource.clip = m_LandSound;
             m_AudioSource.Play();
             m_NextStep = m_StepCycle + .5f;
         }
@@ -161,12 +161,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             // FOLLOWING MUST BE CHANGED 
             // pick & play a random footstep sound from the array,
             // excluding sound at index 0
-            int n = Random.Range(1, m_Steps.Length);
+            /* int n = Random.Range(1, m_Steps.Length);
             m_AudioSource.clip = m_Steps[n];
             m_AudioSource.PlayOneShot(m_AudioSource.clip);
             // move picked sound to index 0 so it's not picked next time
             m_Steps[n] = m_Steps[0];
-            m_Steps[0] = m_AudioSource.clip;
+            m_Steps[0] = m_AudioSource.clip; */
+            m_AudioSource.Play();
         }
 
         private void GetInput(out float speed)

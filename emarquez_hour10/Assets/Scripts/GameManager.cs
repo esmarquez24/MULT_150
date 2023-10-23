@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.VersionControl;
 using UnityEditor.XR;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
     private bool isRunning = false;
     private float elapsedTime = 0;
 
-    private void StartGame()
+    private void Start()
     {
         elapsedTime = 0;
         isRunning = true;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
     {
         isRunning = false;
         isGameOver = true;
+        Debug.Log("Made it to Game Over");
     }
     // Update is called once per frame
     void Update()
@@ -31,6 +33,10 @@ public class GameManager : MonoBehaviour
        }
         // if all four goals are solved then the game is over
         isGameOver = blue.isSolved && green.isSolved && red.isSolved && orange.isSolved;
+        if (isGameOver == true)
+        {
+            GameOver();
+        }
     }
 
     private void OnGUI()
@@ -51,7 +57,8 @@ public class GameManager : MonoBehaviour
             if (GUI.Button(startButton, message) || Input.GetKeyDown(KeyCode.Return))
             {
                 //start the game if the user clicks to play
-                StartGame();
+                Scene scene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(scene.name);
             }
         }
         // If the player finished the game, show the final time
