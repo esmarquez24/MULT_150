@@ -11,7 +11,7 @@ public class PrefabGenerator : MonoBehaviour
     {
         for (int i = 1; i <= 10; i++)
         {
-            Vector3 spawnposition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), 0f, 0f);
+            Vector3 spawnposition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), 0f, -5f);
             GameObject gameObject = Instantiate<GameObject>(prefab, spawnposition, Quaternion.identity);
         }
     }
