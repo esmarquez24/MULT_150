@@ -334,7 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a0a0c38a8b4ca4292a6970fc423cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1002081737308038543, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+  prefab: {fileID: 1647033566269355453, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+  spawnValues: {x: 5, y: 0, z: 0}
 --- !u!4 &1848067698
 Transform:
   m_ObjectHideFlags: 0
@@ -350,58 +351,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &757545165916041513
+--- !u!1001 &1647033565733882370
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalPosition.z
       value: -5
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 757545167362737451, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033565838556672, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1002081737308038543, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
+    - target: {fileID: 1647033566269355453, guid: 5802e9c9c23f3a74a81131fbe25aaf44, type: 3}
       propertyPath: m_Name
       value: Street Lamp
       objectReference: {fileID: 0}
