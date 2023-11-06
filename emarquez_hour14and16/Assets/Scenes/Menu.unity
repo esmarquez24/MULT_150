@@ -347,7 +347,6 @@ GameObject:
   - component: {fileID: 247606513}
   - component: {fileID: 247606512}
   - component: {fileID: 247606511}
-  - component: {fileID: 247606514}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -362,7 +361,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247606510}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &247606512
 Camera:
   m_ObjectHideFlags: 0
@@ -421,19 +420,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &247606514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 247606510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca26b8ef30f16b459c782f97904eb2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundPlayer: {fileID: 1746413504}
 --- !u!1001 &321856089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -576,19 +562,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11485492, guid: ccd0e1b10a61c449083a20f4bdd95a05, type: 3}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: LoadGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 247606514}
+      - m_Target: {fileID: 1746413506}
         m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
         m_MethodName: playThisSoundEffect
         m_Mode: 1
@@ -1108,8 +1082,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1746413505}
   - component: {fileID: 1746413504}
+  - component: {fileID: 1746413506}
+  - component: {fileID: 1746413507}
   m_Layer: 0
-  m_Name: AudioSource
+  m_Name: Audio Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,6 +1202,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746413506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746413503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca26b8ef30f16b459c782f97904eb2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!81 &1746413507
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746413503}
+  m_Enabled: 1
 --- !u!1 &2099961935
 GameObject:
   m_ObjectHideFlags: 0
