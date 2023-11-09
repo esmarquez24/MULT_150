@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 1647033566269355453, guid: 9b5495b7d8b62c44f935495e0d05ede4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 1647033566401124207, guid: 9b5495b7d8b62c44f935495e0d05ede4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -414,3 +418,29 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 057f00e1549232c4e81490dd1f542fbd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b5495b7d8b62c44f935495e0d05ede4, type: 3}
+--- !u!1 &2013801118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1647033566269355453, guid: 9b5495b7d8b62c44f935495e0d05ede4, type: 3}
+  m_PrefabInstance: {fileID: 2013801117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2013801119
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013801118}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 054951a74df57e44e8f5a3c512f44625, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
