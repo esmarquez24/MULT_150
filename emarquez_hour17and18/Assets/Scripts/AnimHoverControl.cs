@@ -17,7 +17,7 @@ public class AnimHoverControl : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            anim.SetTrigger("Trigger_Hover");
+            anim.SetTrigger("Hover");
         }
     }
 }
