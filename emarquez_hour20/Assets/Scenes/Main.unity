@@ -405,9 +405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e2f4b15408f8674691f2eefdddd347c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  normalMat: {fileID: 0}
-  phasedMat: {fileID: 0}
+  manager: {fileID: 1279985198}
+  normalMat: {fileID: 2100000, guid: dc696444f7cf032469099617451faa61, type: 2}
+  phasedMat: {fileID: 2100000, guid: 67d24cf9019886246babf1a1b0ec936f, type: 2}
   bounds: 3
   strafeSpeed: 4
   phaseCooldown: 2
@@ -613,6 +613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279985199}
   - component: {fileID: 1279985198}
+  - component: {fileID: 1279985200}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -632,7 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edfd7c65c277c3944b86a0dd9e63c614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 0}
+  ground: {fileID: 1746595141}
   gameTime: 10
 --- !u!4 &1279985199
 Transform:
@@ -649,6 +650,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279985200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279985197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc410a983222a24fa50d666f23679d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerupPrefab: {fileID: 6881773657198063302, guid: 70d71f5c3e1c9414e9e90e61e1a26674, type: 3}
+  obstaclePrefab: {fileID: 7687658691158789451, guid: 18398cc5895b8d548950455b5f5b11f2, type: 3}
+  spawnCycle: 0.5
 --- !u!1 &1746595136
 GameObject:
   m_ObjectHideFlags: 0

@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     }
     void OnGUI()
     {
-        if (isGameOver)
+        if (!isGameOver)
         {
             Rect boxRect = new Rect(Screen.width / 2 - 50, Screen.height - 100, 100, 50);
             GUI.Box(boxRect, "Time Remaining");
