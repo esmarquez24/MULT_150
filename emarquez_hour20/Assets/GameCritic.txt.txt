@@ -1,0 +1,5 @@
+1. The game is too easy. It is easy to doge or phase to avoid obstacles. There isn't really a win factor or set goal. 
+2. I would set the time as a stopwatch rather than have it ocunting down and make it so it increases in difficulty as the game progresses. I would also set goals or checkpoints like grabbing a set amount of power ups throughout the game. 
+3. Adding game music, sound effect for the power ups and obstacles and a cool effect where the music hollows out when you enter the phase mode.
+4. The atmosphere of the game is fun, as well as collecting power ups and useing the phase mode.
+5. The short countdown is really tedious as well as the silence throughout the game. 
